@@ -1,0 +1,26 @@
+<svg width="200" height="40" viewBox="0 0 200 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="text-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield icon -->
+  <path 
+    d="M20 4L6 10v12c0 9.6 6.83 18.56 16 21.33 9.17-2.77 16-11.73 16-21.33V10L20 4z" 
+    fill="url(#text-gradient)"
+    opacity="0.9"
+  />
+  <path 
+    d="M14 20l4 4 8-8" 
+    stroke="white" 
+    stroke-width="2" 
+    stroke-linecap="round" 
+    stroke-linejoin="round"
+    fill="none"
+  />
+  <!-- Text: AgentEscrow -->
+  <text x="48" y="27" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="600" fill="#fafafa">
+    Agent<tspan fill="url(#text-gradient)">Escrow</tspan>
+  </text>
+</svg>

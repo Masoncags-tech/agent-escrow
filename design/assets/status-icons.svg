@@ -1,0 +1,38 @@
+<svg width="144" height="24" viewBox="0 0 144 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Active (Blue) -->
+  <g id="status-active">
+    <circle cx="12" cy="12" r="10" fill="#3b82f6" fill-opacity="0.15"/>
+    <circle cx="12" cy="12" r="6" fill="#3b82f6"/>
+    <circle cx="12" cy="12" r="3" fill="white"/>
+  </g>
+  
+  <!-- Work Submitted (Amber) -->
+  <g id="status-submitted">
+    <circle cx="36" cy="12" r="10" fill="#f59e0b" fill-opacity="0.15"/>
+    <path d="M36 6v8M36 17v1" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Approved (Green) -->
+  <g id="status-approved">
+    <circle cx="60" cy="12" r="10" fill="#22c55e" fill-opacity="0.15"/>
+    <path d="M54 12l4 4 8-8" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Disputed (Red) -->
+  <g id="status-disputed">
+    <circle cx="84" cy="12" r="10" fill="#ef4444" fill-opacity="0.15"/>
+    <path d="M80 8l8 8M88 8l-8 8" stroke="#ef4444" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Resolved (Purple) -->
+  <g id="status-resolved">
+    <circle cx="108" cy="12" r="10" fill="#a855f7" fill-opacity="0.15"/>
+    <path d="M104 12h8M108 8v8" stroke="#a855f7" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Cancelled (Gray) -->
+  <g id="status-cancelled">
+    <circle cx="132" cy="12" r="10" fill="#71717a" fill-opacity="0.15"/>
+    <path d="M128 12h8" stroke="#71717a" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

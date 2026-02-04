@@ -1,0 +1,26 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shield-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield shape -->
+  <path 
+    d="M32 4L8 14v18c0 14.4 10.24 27.84 24 32 13.76-4.16 24-17.6 24-32V14L32 4z" 
+    fill="url(#shield-gradient)"
+    opacity="0.9"
+  />
+  <!-- Three section dividers (collaboration) -->
+  <line x1="32" y1="14" x2="32" y2="44" stroke="#0a0a0f" stroke-width="2" opacity="0.3"/>
+  <line x1="18" y1="32" x2="46" y2="32" stroke="#0a0a0f" stroke-width="2" opacity="0.3"/>
+  <!-- Check mark in center (trust/verification) -->
+  <path 
+    d="M24 32l6 6 12-12" 
+    stroke="white" 
+    stroke-width="3" 
+    stroke-linecap="round" 
+    stroke-linejoin="round"
+    fill="none"
+  />
+</svg>

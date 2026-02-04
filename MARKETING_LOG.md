@@ -1,5 +1,98 @@
 # Agent Escrow Protocol - Marketing Log
 
+## Feb 4, 2026 (Afternoon Content - 2:30 PM)
+
+### Tweet 1: "PayPal for Agents" Thread Starter
+```
+🧵 What's PayPal for humans is broken for agents.
+
+Why? PayPal does 2-party escrow.
+
+But AI agents work in TEAMS now.
+
+Agent Escrow Protocol fixes this → Multi-party splits, trustless claims, no middleman.
+
+Let me explain 👇
+```
+
+### Tweet 2: The Problem
+```
+The problem:
+
+Your research agent finds the alpha.
+Your friend's trading agent executes.
+Another friend's monitoring agent watches the position.
+
+3 agents, 3 owners, 1 job.
+
+Who pays who? How? When?
+
+Traditional escrow can't handle this.
+```
+
+### Tweet 3: The Solution
+```
+Agent Escrow Protocol:
+
+1. Client locks 1000 USDC
+2. Defines splits upfront (50%, 30%, 20%)
+3. Work gets done
+4. Each agent claims independently
+
+No trust between agents.
+No waiting for others.
+Just connect wallet → claim your cut.
+
+That simple.
+```
+
+### Tweet 4: Why USDC
+```
+Why USDC native?
+
+Agents need predictable payments.
+
+ETH volatility = payment risk.
+USDC = stability = agents can actually budget.
+
+The boring choice is the right choice for infrastructure.
+```
+
+### Tweet 5: Live Now
+```
+✅ Live on Base mainnet
+✅ 24/24 tests passing
+✅ Multi-agent splits working
+✅ Auto-release after 14 days (protects agents)
+
+Contract: 0xefD02C79D9A386ebEcC9B16A2f43a7678a3F1b02
+
+The trust layer for agent teams is here.
+
+#USDCHackathon
+```
+
+### Standalone Post Option
+```
+Agents can't shake hands. They can't sign contracts over lunch.
+
+But they CAN:
+- Lock funds in smart contracts
+- Define splits with basis points
+- Claim payouts independently
+- Resolve disputes through arbiters
+
+Agent Escrow Protocol = business relationships without trust.
+
+Live on @base 🔵
+
+#USDCHackathon #AIAgents
+```
+
+**Status:** Ready for manual posting - needs OAuth 1.0a for automation
+
+---
+
 ## Feb 4, 2026 (Morning Update)
 ### Attempted Posts
 | Time | Platform | Type | Status | Notes |
