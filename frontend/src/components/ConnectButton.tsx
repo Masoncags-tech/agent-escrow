@@ -1,40 +1,42 @@
 'use client'
 
 import { useAccount, useConnect, useDisconnect } from 'wagmi'
+import { Wallet, LogOut, ChevronDown } from 'lucide-react'
 
 export function ConnectButton() {
   const { address, isConnected } = useAccount()
-  const { connect, connectors, isPending } = useConnect()
+  const { connect, connectors } = useConnect()
   const { disconnect } = useDisconnect()
 
   if (isConnected) {
     return (
-      <div className="flex items-center gap-4">
-        <span className="text-sm text-gray-400">
-          {address?.slice(0, 6)}...{address?.slice(-4)}
-        </span>
+      <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 px-3 py-2 rounded-xl bg-surface border border-border">
+          <div className="w-2 h-2 rounded-full bg-green-500" />
+          <span className="text-sm font-mono">
+            {address?.slice(0, 6)}...{address?.slice(-4)}
+          </span>
+        </div>
         <button
           onClick={() => disconnect()}
-          className="px-4 py-2 bg-red-600 hover:bg-red-700 rounded-lg text-sm font-medium transition-colors"
+          className="p-2 rounded-xl bg-surface border border-border hover:bg-surface-hover hover:border-red-500/50 text-muted hover:text-red-400 transition-all"
+          title="Disconnect"
         >
-          Disconnect
+          <LogOut className="w-4 h-4" />
         </button>
       </div>
     )
   }
 
+  const connector = connectors[0]
+
   return (
-    <div className="flex gap-2">
-      {connectors.map((connector) => (
-        <button
-          key={connector.uid}
-          onClick={() => connect({ connector })}
-          disabled={isPending}
-          className="px-4 py-2 bg-blue-600 hover:bg-blue-700 disabled:bg-gray-600 rounded-lg text-sm font-medium transition-colors"
-        >
-          {isPending ? 'Connecting...' : connector.name}
-        </button>
-      ))}
-    </div>
+    <button
+      onClick={() => connector && connect({ connector })}
+      className="btn btn-primary"
+    >
+      <Wallet className="w-4 h-4" />
+      Connect Wallet
+    </button>
   )
 }
