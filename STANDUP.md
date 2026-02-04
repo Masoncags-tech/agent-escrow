@@ -71,9 +71,11 @@ Suite result: ok. 24 passed; 0 failed; 0 skipped
 ## Next Steps
 
 1. ✅ **DEPLOYED TO BASE MAINNET!**
-2. **Frontend** (optional) - Simple dApp for demo
-3. **Gas optimization** review
-4. **Additional documentation** for hackathon submission
+2. ✅ **Frontend** - Deployed to Vercel (needs auth disabled for public access)
+3. ✅ **GitHub** - All code pushed with README
+4. ✅ **Demo Script** - Written in DEMO_SCRIPT.md
+5. 🎬 **Record demo video**
+6. 📝 **Submit to hackathon**
 
 ## 🚀 LIVE DEPLOYMENT
 
