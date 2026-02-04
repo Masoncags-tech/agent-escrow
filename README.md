@@ -52,9 +52,12 @@ After work approval:
 
 ## 📜 Contract
 
+**Base Sepolia (Testnet):** [`0xe6B4fA346765573420B667B84d4aD9BF66533349`](https://base-sepolia.blockscout.com/address/0xe6B4fA346765573420B667B84d4aD9BF66533349)
+
 **Base Mainnet:** [`0xefD02C79D9A386ebEcC9B16A2f43a7678a3F1b02`](https://basescan.org/address/0xefD02C79D9A386ebEcC9B16A2f43a7678a3F1b02)
 
-**USDC (Base):** `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`
+**USDC (Base Sepolia):** `0x036CbD53842c5426634e7929541eC2318f3dCF7e`
+**USDC (Base Mainnet):** `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`
 
 ---
 
