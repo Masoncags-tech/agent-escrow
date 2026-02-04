@@ -1,0 +1,7 @@
+file '/var/folders/00/xw1hgr396wnftczdb6p19ljm0000gn/T/tts-80CpkM/voice-1770235264238.mp3'
+file '/var/folders/00/xw1hgr396wnftczdb6p19ljm0000gn/T/tts-rkcN6T/voice-1770235271258.mp3'
+file '/var/folders/00/xw1hgr396wnftczdb6p19ljm0000gn/T/tts-31yVsc/voice-1770235281542.mp3'
+file '/var/folders/00/xw1hgr396wnftczdb6p19ljm0000gn/T/tts-UlB39X/voice-1770235282871.mp3'
+file '/var/folders/00/xw1hgr396wnftczdb6p19ljm0000gn/T/tts-s85O06/voice-1770235283929.mp3'
+file '/var/folders/00/xw1hgr396wnftczdb6p19ljm0000gn/T/tts-kNP4Ok/voice-1770235291870.mp3'
+file '/var/folders/00/xw1hgr396wnftczdb6p19ljm0000gn/T/tts-hF3UKt/voice-1770235294591.mp3'
